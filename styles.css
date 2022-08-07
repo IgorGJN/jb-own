@@ -1,0 +1,43 @@
+:root {
+    --color-primary: #OC0A0F;
+    --destaque-color: #FF9706;
+    --fort-color: #F63508;
+    --background-color: #B4EEF8;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.cabecalho {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--destaque-color);
+    align-items: center;
+    box-shadow: 0px 2px var(--fort-color);
+}
+
+.cabecalho__menu {
+    margin-right: 1vw;
+}
+
+.cabecalho__logo {
+    padding: 2vw;
+    height: 40px;
+    width: 40px;
+}
+
+.cabecalho__link {
+    padding: 1vw;
+    height: 32px;
+    width: 32px;
+}
+
+.destaque {
+    margin-top: 10vh;
+    background-color: #FF9706;
+}
